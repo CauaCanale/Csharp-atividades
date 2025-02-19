@@ -33,6 +33,7 @@
             this.RemoverClientes = new System.Windows.Forms.Button();
             this.Fechar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.mySqlDataAdapter1 = new MySql.Data.MySqlClient.MySqlDataAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.Size = new System.Drawing.Size(545, 311);
             this.dgvClientes.TabIndex = 0;
+            this.dgvClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellContentClick);
             // 
             // PesquisarClientes
             // 
@@ -85,6 +87,13 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Gerenciamento de Clientes";
             // 
+            // mySqlDataAdapter1
+            // 
+            this.mySqlDataAdapter1.DeleteCommand = null;
+            this.mySqlDataAdapter1.InsertCommand = null;
+            this.mySqlDataAdapter1.SelectCommand = null;
+            this.mySqlDataAdapter1.UpdateCommand = null;
+            // 
             // Gerenciamento_Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -97,6 +106,7 @@
             this.Controls.Add(this.dgvClientes);
             this.Name = "Gerenciamento_Clientes";
             this.Text = "Gerenciamento_Clientes";
+            this.Load += new System.EventHandler(this.Gerenciamento_Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -110,5 +120,6 @@
         private System.Windows.Forms.Button RemoverClientes;
         private System.Windows.Forms.Button Fechar;
         private System.Windows.Forms.Label label1;
+        private MySql.Data.MySqlClient.MySqlDataAdapter mySqlDataAdapter1;
     }
 }

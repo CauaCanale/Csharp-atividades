@@ -1,18 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\",
+  "WorkspaceRootPath": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\sistema-caua\\sitema2\\gerenciamento_carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\cadcarros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\cadcarros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\cadcarros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\cadcarros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|c:\\users\\caua.cferreira2\\source\\repos\\csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\gerenciamento_carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\gerenciamento_carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\sitema2\\gerenciamento_carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\sitema2\\gerenciamento_carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\gerenciamento_carros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\sitema2\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{549508B2-FE3B-4F05-9F71-39DB1F48445C}|Sitema2\\Sitema2.csproj|solutionrelative:sitema2\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 340,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +62,123 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Menu.cs",
+              "RelativeDocumentMoniker": "Sitema2\\Menu.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Menu.cs [Design]",
+              "RelativeToolTip": "Sitema2\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:22:57.399Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Form1.cs",
+              "RelativeDocumentMoniker": "Sitema2\\Form1.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Form1.cs",
+              "RelativeToolTip": "Sitema2\\Form1.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAIAwwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:49:33.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Form1.cs",
+              "RelativeDocumentMoniker": "Sitema2\\Form1.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Form1.cs [Design]",
+              "RelativeToolTip": "Sitema2\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:49:30.419Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadClientes.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadClientes.cs",
+              "RelativeDocumentMoniker": "Sitema2\\CadClientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadClientes.cs",
+              "RelativeToolTip": "Sitema2\\CadClientes.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAnwCcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:48:56.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadClientes.cs",
+              "RelativeDocumentMoniker": "Sitema2\\CadClientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadClientes.cs [Design]",
+              "RelativeToolTip": "Sitema2\\CadClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:48:50.87Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gerenciamento_Clientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Clientes.cs",
+              "RelativeDocumentMoniker": "Sitema2\\Gerenciamento_Clientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Clientes.cs [Design]*",
+              "RelativeToolTip": "Sitema2\\Gerenciamento_Clientes.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T13:31:47.927Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Gerenciamento_Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Clientes.cs",
+              "RelativeDocumentMoniker": "Sitema2\\Gerenciamento_Clientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Clientes.cs*",
+              "RelativeToolTip": "Sitema2\\Gerenciamento_Clientes.cs*",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T12:36:52.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CadCarros.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadCarros.cs",
+              "RelativeDocumentMoniker": "Sitema2\\CadCarros.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadCarros.cs",
+              "RelativeToolTip": "Sitema2\\CadCarros.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAIAwwIQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:48:23.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CadCarros.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadCarros.cs",
+              "RelativeDocumentMoniker": "Sitema2\\CadCarros.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\CadCarros.cs [Design]",
+              "RelativeToolTip": "Sitema2\\CadCarros.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:48:18.305Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Gerenciamento_Carros.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs",
               "RelativeDocumentMoniker": "Sitema2\\Gerenciamento_Carros.cs",
-              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs [Design]",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs [Design]",
               "RelativeToolTip": "Sitema2\\Gerenciamento_Carros.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T13:26:27.842Z",
@@ -42,27 +186,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Gerenciamento_Carros.cs",
-              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs",
               "RelativeDocumentMoniker": "Sitema2\\Gerenciamento_Carros.cs",
-              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\Csharp-atividades\\sistema-veiculos\\sistema-caua\\Sitema2\\Gerenciamento_Carros.cs",
               "RelativeToolTip": "Sitema2\\Gerenciamento_Carros.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAgwGYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T12:42:12.088Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gerenciamento_Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\Sitema2\\Gerenciamento_Clientes.cs",
-              "RelativeDocumentMoniker": "Sitema2\\Gerenciamento_Clientes.cs",
-              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-caua\\Sitema2\\Gerenciamento_Clientes.cs",
-              "RelativeToolTip": "Sitema2\\Gerenciamento_Clientes.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAIwEsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T12:36:52.869Z"
+              "WhenOpened": "2025-02-11T12:42:12.088Z",
+              "EditorCaption": ""
             }
           ]
         },

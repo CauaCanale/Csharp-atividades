@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|c:\\users\\caua.cferreira2\\documents\\damajucad\\damajucad\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|solutionrelative:damajucad\\gerenciamento_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|c:\\users\\caua.cferreira2\\documents\\damajucad\\damajucad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|solutionrelative:damajucad\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|c:\\users\\caua.cferreira2\\documents\\damajucad\\damajucad\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|solutionrelative:damajucad\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|c:\\users\\caua.cferreira2\\documents\\damajucad\\damajucad\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|solutionrelative:damajucad\\cadclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|c:\\users\\caua.cferreira2\\documents\\damajucad\\damajucad\\cadprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|solutionrelative:damajucad\\cadprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|c:\\users\\caua.cferreira2\\documents\\damajucad\\damajucad\\cadprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A8590824-0927-49B6-ACC8-DA2B00AC1866}|DamajuCad\\DamajuCad.csproj|solutionrelative:damajucad\\cadprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 340,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gerenciamento_CLientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Gerenciamento_CLientes.cs",
+              "RelativeDocumentMoniker": "DamajuCad\\Gerenciamento_CLientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Gerenciamento_CLientes.cs [Design]",
+              "RelativeToolTip": "DamajuCad\\Gerenciamento_CLientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:52:35.268Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cadprodutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Cadprodutos.cs",
+              "RelativeDocumentMoniker": "DamajuCad\\Cadprodutos.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Cadprodutos.cs [Design]",
+              "RelativeToolTip": "DamajuCad\\Cadprodutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:45:06.153Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cadprodutos.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Cadprodutos.cs",
+              "RelativeDocumentMoniker": "DamajuCad\\Cadprodutos.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Cadprodutos.cs",
+              "RelativeToolTip": "DamajuCad\\Cadprodutos.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:38:14.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CadClientes.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\CadClientes.cs",
+              "RelativeDocumentMoniker": "DamajuCad\\CadClientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\CadClientes.cs",
+              "RelativeToolTip": "DamajuCad\\CadClientes.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowBoAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:38:05.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CadClientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\CadClientes.cs",
+              "RelativeDocumentMoniker": "DamajuCad\\CadClientes.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\CadClientes.cs [Design]",
+              "RelativeToolTip": "DamajuCad\\CadClientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:37:38.271Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Form1.cs",
+              "RelativeDocumentMoniker": "DamajuCad\\Form1.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\DamajuCad\\DamajuCad\\Form1.cs [Design]",
+              "RelativeToolTip": "DamajuCad\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T11:40:10.662Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

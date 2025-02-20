@@ -24,7 +24,7 @@ namespace DamajuCad
         }
 
 
-        private void Cadastrar_Click(object sender, EventArgs e)
+        private void CadastrarProdutos_Click(object sender, EventArgs e)
         {
 
             String conexaoString = "Server=localhost; Port=3306; Database=bd_damaju; Uid=root; Pwd=;";

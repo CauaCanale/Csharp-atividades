@@ -94,6 +94,7 @@ namespace Sitema2
                 labelAlert.ForeColor = Color.Red;
                 maskedTextBoxCPF.Text = "";
                 maskedTextBoxCPF.Focus();
+                return;
             }
 
 

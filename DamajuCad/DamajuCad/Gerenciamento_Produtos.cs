@@ -17,12 +17,12 @@ namespace DamajuCad
         {
             InitializeComponent();
         }
-        private void RemoverProdutos_Click(object sender, EventArgs e)
+        private void RemoverProdutos_Click_1(object sender, EventArgs e)
         {
-            if (Gerenciar_Produtos.SelectedRows.Count > 0)
+            if (GerenciarProdutos.SelectedRows.Count > 0)
             {
                 //Pega ID do cliente da linha selecionada
-                int clienteID = Convert.ToInt32(Gerenciar_Produtos.SelectedRows[0].Cells["ID_Cliente"].Value);
+                int clienteID = Convert.ToInt32(GerenciarProdutos.SelectedRows[0].Cells["ID_produto"].Value);
 
                 DialogResult result = MessageBox.Show("Tem certeza que deseja excluir este cliente?", "Confirmar Exclusão", MessageBoxButtons.YesNo);
 
@@ -43,7 +43,8 @@ namespace DamajuCad
                                 cmd.Parameters.AddWithValue("ID_Produto", clienteID);
 
                                 int rowsAffected = cmd.ExecuteNonQuery();
-
+                                
+                                   
                                 if (rowsAffected > 0)
                                 {
                                     MessageBox.Show("Cliente excluido com sucesso!");
@@ -66,7 +67,7 @@ namespace DamajuCad
                 }
             }
         }
-        private void PesquisarProdutos_Click(object sender, EventArgs e)
+        private void PesquisarProdutos_Click_1(object sender, EventArgs e)
         {
             //Defina sua string de conexão com o banco
             string connectionString = "Server=localhost; Port=3306; Database=bd_damaju; Uid=root; Pwd=;";
@@ -83,19 +84,22 @@ namespace DamajuCad
                     {
                         MySqlDataReader reader = cmd.ExecuteReader();
 
-                        DataTable dadosClientes = new DataTable();
-                        dadosClientes.Load(reader);
+                        DataTable dadosProdutos = new DataTable();
+                        dadosProdutos.Load(reader);
 
-                        Gerenciar_Produtos.DataSource = dadosClientes;
+                        GerenciarProdutos.DataSource = dadosProdutos;
                     }
                 }
             }
-
-
             catch (Exception ex)
             {
                 MessageBox.Show("Erro ao listar os Clientes:" + ex.Message);
             }
+        }
+
+        private void Voltar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

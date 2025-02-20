@@ -72,8 +72,7 @@ namespace Sitema2
                 }
             }
         }
-
-        private void PesquisarClientes_Click(object sender, EventArgs e)
+        private void PesquisarClientes_Click_1(object sender, EventArgs e)
         {
             //Defina sua string de conexão com o banco
             string connectionString = "Server=localhost; Port=3306; Database=bd_sistema; Uid=root; Pwd=;";
@@ -84,7 +83,7 @@ namespace Sitema2
                 {
                     consulta.Open();
 
-                    string listagem = "SELECT Id_Cliente, NomeCompleto, Telefone FROM tb_Clientes";
+                    string listagem = "SELECT Id_Cliente, NomeCompleto, CPF, Email, CEP, Numero, Telefone FROM tb_clientes";
 
                     using (MySqlCommand cmd = new MySqlCommand(listagem, consulta))
                     {
@@ -97,15 +96,19 @@ namespace Sitema2
                     }
                 }
             }
-
-
             catch (Exception ex)
             {
                 MessageBox.Show("Erro ao listar os Clientes:" + ex.Message);
             }
         }
+
+        private void Fechar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
+
 
         
         

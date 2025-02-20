@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.Titulo = new System.Windows.Forms.MaskedTextBox();
+            this.Tamanho = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -39,13 +39,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox10 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Desenvolvedor = new System.Windows.Forms.MaskedTextBox();
+            this.Genero = new System.Windows.Forms.MaskedTextBox();
+            this.Valor = new System.Windows.Forms.MaskedTextBox();
+            this.Ano = new System.Windows.Forms.MaskedTextBox();
+            this.Descricao = new System.Windows.Forms.RichTextBox();
+            this.Avaliacao = new System.Windows.Forms.RichTextBox();
+            this.CadastrarJogo = new System.Windows.Forms.Button();
+            this.VoltarCampo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,22 +59,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Cadastrar jogos";
             // 
-            // maskedTextBox1
+            // Titulo
             // 
-            this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(191, 133);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(247, 29);
-            this.maskedTextBox1.TabIndex = 1;
+            this.Titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Titulo.Location = new System.Drawing.Point(191, 133);
+            this.Titulo.Name = "Titulo";
+            this.Titulo.Size = new System.Drawing.Size(247, 29);
+            this.Titulo.TabIndex = 1;
             // 
-            // maskedTextBox5
+            // Tamanho
             // 
-            this.maskedTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox5.Location = new System.Drawing.Point(390, 295);
-            this.maskedTextBox5.Mask = "000AA";
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(48, 29);
-            this.maskedTextBox5.TabIndex = 5;
+            this.Tamanho.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tamanho.Location = new System.Drawing.Point(390, 295);
+            this.Tamanho.Mask = "000AA";
+            this.Tamanho.Name = "Tamanho";
+            this.Tamanho.Size = new System.Drawing.Size(63, 29);
+            this.Tamanho.TabIndex = 5;
             // 
             // label2
             // 
@@ -155,91 +156,106 @@
             this.label11.TabIndex = 17;
             this.label11.Text = "Valor:";
             // 
-            // maskedTextBox2
+            // Desenvolvedor
             // 
-            this.maskedTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox2.Location = new System.Drawing.Point(191, 181);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(247, 29);
-            this.maskedTextBox2.TabIndex = 16;
+            this.Desenvolvedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desenvolvedor.Location = new System.Drawing.Point(191, 181);
+            this.Desenvolvedor.Name = "Desenvolvedor";
+            this.Desenvolvedor.Size = new System.Drawing.Size(247, 29);
+            this.Desenvolvedor.TabIndex = 16;
             // 
-            // maskedTextBox7
+            // Genero
             // 
-            this.maskedTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox7.Location = new System.Drawing.Point(191, 238);
-            this.maskedTextBox7.Name = "maskedTextBox7";
-            this.maskedTextBox7.Size = new System.Drawing.Size(247, 29);
-            this.maskedTextBox7.TabIndex = 15;
+            this.Genero.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Genero.Location = new System.Drawing.Point(191, 238);
+            this.Genero.Name = "Genero";
+            this.Genero.Size = new System.Drawing.Size(247, 29);
+            this.Genero.TabIndex = 15;
             // 
-            // maskedTextBox10
+            // Valor
             // 
-            this.maskedTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox10.Location = new System.Drawing.Point(191, 295);
-            this.maskedTextBox10.Mask = "0000,00";
-            this.maskedTextBox10.Name = "maskedTextBox10";
-            this.maskedTextBox10.Size = new System.Drawing.Size(77, 29);
-            this.maskedTextBox10.TabIndex = 12;
+            this.Valor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Valor.Location = new System.Drawing.Point(191, 295);
+            this.Valor.Mask = "0000,00";
+            this.Valor.Name = "Valor";
+            this.Valor.Size = new System.Drawing.Size(77, 29);
+            this.Valor.TabIndex = 12;
             // 
-            // maskedTextBox8
+            // Ano
             // 
-            this.maskedTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBox8.Location = new System.Drawing.Point(191, 353);
-            this.maskedTextBox8.Mask = "0000";
-            this.maskedTextBox8.Name = "maskedTextBox8";
-            this.maskedTextBox8.Size = new System.Drawing.Size(77, 29);
-            this.maskedTextBox8.TabIndex = 20;
+            this.Ano.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ano.Location = new System.Drawing.Point(191, 353);
+            this.Ano.Mask = "0000";
+            this.Ano.Name = "Ano";
+            this.Ano.Size = new System.Drawing.Size(77, 29);
+            this.Ano.TabIndex = 20;
             // 
-            // richTextBox1
+            // Descricao
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(607, 133);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(267, 143);
-            this.richTextBox1.TabIndex = 21;
-            this.richTextBox1.Text = "";
+            this.Descricao.Location = new System.Drawing.Point(607, 133);
+            this.Descricao.Name = "Descricao";
+            this.Descricao.Size = new System.Drawing.Size(267, 143);
+            this.Descricao.TabIndex = 21;
+            this.Descricao.Text = "";
             // 
-            // richTextBox2
+            // Avaliacao
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(607, 297);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(267, 143);
-            this.richTextBox2.TabIndex = 22;
-            this.richTextBox2.Text = "";
+            this.Avaliacao.Location = new System.Drawing.Point(607, 297);
+            this.Avaliacao.Name = "Avaliacao";
+            this.Avaliacao.Size = new System.Drawing.Size(267, 143);
+            this.Avaliacao.TabIndex = 22;
+            this.Avaliacao.Text = "";
             // 
-            // button1
+            // CadastrarJogo
             // 
-            this.button1.BackColor = System.Drawing.Color.YellowGreen;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(336, 406);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 50);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.CadastrarJogo.BackColor = System.Drawing.Color.YellowGreen;
+            this.CadastrarJogo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CadastrarJogo.Location = new System.Drawing.Point(220, 452);
+            this.CadastrarJogo.Name = "CadastrarJogo";
+            this.CadastrarJogo.Size = new System.Drawing.Size(164, 41);
+            this.CadastrarJogo.TabIndex = 23;
+            this.CadastrarJogo.Text = "Cadastrar";
+            this.CadastrarJogo.UseVisualStyleBackColor = false;
+            this.CadastrarJogo.Click += new System.EventHandler(this.CadastrarJogo_Click);
             // 
-            // Form1
+            // VoltarCampo
+            // 
+            this.VoltarCampo.BackColor = System.Drawing.Color.YellowGreen;
+            this.VoltarCampo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VoltarCampo.Location = new System.Drawing.Point(410, 452);
+            this.VoltarCampo.Name = "VoltarCampo";
+            this.VoltarCampo.Size = new System.Drawing.Size(164, 41);
+            this.VoltarCampo.TabIndex = 24;
+            this.VoltarCampo.Text = "Voltar";
+            this.VoltarCampo.UseVisualStyleBackColor = false;
+            this.VoltarCampo.Click += new System.EventHandler(this.VoltarCampo_Click);
+            // 
+            // Cadastro_jogos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(943, 549);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.maskedTextBox8);
+            this.Controls.Add(this.VoltarCampo);
+            this.Controls.Add(this.CadastrarJogo);
+            this.Controls.Add(this.Avaliacao);
+            this.Controls.Add(this.Descricao);
+            this.Controls.Add(this.Ano);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox7);
-            this.Controls.Add(this.maskedTextBox10);
+            this.Controls.Add(this.Desenvolvedor);
+            this.Controls.Add(this.Genero);
+            this.Controls.Add(this.Valor);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.maskedTextBox5);
-            this.Controls.Add(this.maskedTextBox1);
+            this.Controls.Add(this.Tamanho);
+            this.Controls.Add(this.Titulo);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Cadastro_jogos";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -249,8 +265,8 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.MaskedTextBox Titulo;
+        private System.Windows.Forms.MaskedTextBox Tamanho;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -259,13 +275,14 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox10;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox8;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MaskedTextBox Desenvolvedor;
+        private System.Windows.Forms.MaskedTextBox Genero;
+        private System.Windows.Forms.MaskedTextBox Valor;
+        private System.Windows.Forms.MaskedTextBox Ano;
+        private System.Windows.Forms.RichTextBox Descricao;
+        private System.Windows.Forms.RichTextBox Avaliacao;
+        private System.Windows.Forms.Button CadastrarJogo;
+        private System.Windows.Forms.Button VoltarCampo;
     }
 }
 

@@ -38,7 +38,7 @@ namespace DamajuCad
 
         private void Gerenciamento_Clientes_Click(object sender, EventArgs e)
         {
-            Gerenciamento_CLientes form = new Gerenciamento_CLientes();
+            Gerenciamento_Clientes form = new Gerenciamento_Clientes();
             form.ShowDialog();
         }
 

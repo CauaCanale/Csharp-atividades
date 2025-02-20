@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\",
+  "WorkspaceRootPath": "C:\\Users\\caua.cferreira2\\Documents\\Csharp-atividades\\sistema-dream\\sistema-dream-game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|c:\\users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|solutionrelative:sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|C:\\Users\\caua.cferreira2\\Documents\\Csharp-atividades\\sistema-dream\\sistema-dream-game\\sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|solutionrelative:sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|c:\\users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|solutionrelative:sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|c:\\users\\caua.cferreira2\\documents\\csharp-atividades\\sistema-dream\\sistema-dream-game\\sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8368ED79-2EDB-42DE-9D54-718441379616}|sistema-dream-game\\sistema-dream-game.csproj|solutionrelative:sistema-dream-game\\cadastro_jogos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 340,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,24 +26,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Cadastro_jogos.cs",
-              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\Csharp-atividades\\sistema-dream\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs",
               "RelativeDocumentMoniker": "sistema-dream-game\\Cadastro_jogos.cs",
-              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\Csharp-atividades\\sistema-dream\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs",
               "RelativeToolTip": "sistema-dream-game\\Cadastro_jogos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T14:43:39.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Cadastro_jogos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs",
+              "DocumentMoniker": "C:\\Users\\caua.cferreira2\\Documents\\Csharp-atividades\\sistema-dream\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs",
               "RelativeDocumentMoniker": "sistema-dream-game\\Cadastro_jogos.cs",
-              "ToolTip": "C:\\Users\\caua.cferreira2\\source\\repos\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs [Design]",
+              "ToolTip": "C:\\Users\\caua.cferreira2\\Documents\\Csharp-atividades\\sistema-dream\\sistema-dream-game\\sistema-dream-game\\Cadastro_jogos.cs [Design]",
               "RelativeToolTip": "sistema-dream-game\\Cadastro_jogos.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T14:43:37.29Z",

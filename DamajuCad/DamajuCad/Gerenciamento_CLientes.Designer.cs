@@ -1,6 +1,6 @@
 ﻿namespace DamajuCad
 {
-    partial class Gerenciamento_CLientes
+    partial class Gerenciamento_Clientes
     {
         /// <summary>
         /// Required designer variable.
@@ -45,6 +45,7 @@
             this.PesquisarClientes.TabIndex = 0;
             this.PesquisarClientes.Text = "Pesquisar Clientes";
             this.PesquisarClientes.UseVisualStyleBackColor = true;
+            this.PesquisarClientes.Click += new System.EventHandler(this.PesquisarClientes_Click);
             // 
             // RemoverClientes
             // 
@@ -66,6 +67,7 @@
             this.Voltar.TabIndex = 2;
             this.Voltar.Text = "Voltar";
             this.Voltar.UseVisualStyleBackColor = true;
+            this.Voltar.Click += new System.EventHandler(this.Voltar_Click);
             // 
             // Gerenciar_Clientes
             // 
@@ -86,7 +88,7 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "Gerenciamento Clientes";
             // 
-            // Gerenciamento_CLientes
+            // Gerenciamento_Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +99,7 @@
             this.Controls.Add(this.Voltar);
             this.Controls.Add(this.RemoverClientes);
             this.Controls.Add(this.PesquisarClientes);
-            this.Name = "Gerenciamento_CLientes";
+            this.Name = "Gerenciamento_Clientes";
             this.Text = "Gerenciamento_CLientes";
             ((System.ComponentModel.ISupportInitialize)(this.Gerenciar_Clientes)).EndInit();
             this.ResumeLayout(false);

@@ -116,11 +116,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gerenciamento_CLientes.cs">
+    <Compile Include="Gerenciamento_Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gerenciamento_CLientes.Designer.cs">
-      <DependentUpon>Gerenciamento_CLientes.cs</DependentUpon>
+    <Compile Include="Gerenciamento_Clientes.Designer.cs">
+      <DependentUpon>Gerenciamento_Clientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Gerenciamento_Produtos.cs">
       <SubType>Form</SubType>
@@ -145,8 +145,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Gerenciamento_CLientes.resx">
-      <DependentUpon>Gerenciamento_CLientes.cs</DependentUpon>
+    <EmbeddedResource Include="Gerenciamento_Clientes.resx">
+      <DependentUpon>Gerenciamento_Clientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gerenciamento_Produtos.resx">
       <DependentUpon>Gerenciamento_Produtos.cs</DependentUpon>

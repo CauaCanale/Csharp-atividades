@@ -51,6 +51,7 @@ namespace Sitema2
                 labelAlert.ForeColor = Color.Red;
                 maskedTextBoxCPF.Text = "";
                 maskedTextBoxCPF.Focus();
+                return;
             }
 
             //Defina sua string de conexão com o banco

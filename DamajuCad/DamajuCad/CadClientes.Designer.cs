@@ -30,7 +30,7 @@
         {
             this.Telefone = new System.Windows.Forms.MaskedTextBox();
             this.Numero = new System.Windows.Forms.MaskedTextBox();
-            this.Cpf = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBoxCPF = new System.Windows.Forms.MaskedTextBox();
             this.Nome = new System.Windows.Forms.MaskedTextBox();
             this.Email = new System.Windows.Forms.MaskedTextBox();
             this.Senha = new System.Windows.Forms.MaskedTextBox();
@@ -45,12 +45,13 @@
             this.label9 = new System.Windows.Forms.Label();
             this.buttonVoltar = new System.Windows.Forms.Button();
             this.Cadastrar_Clientes = new System.Windows.Forms.Button();
+            this.labelAlert = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Telefone
             // 
             this.Telefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Telefone.Location = new System.Drawing.Point(534, 280);
+            this.Telefone.Location = new System.Drawing.Point(533, 193);
             this.Telefone.Mask = "(00) 00000-0000";
             this.Telefone.Name = "Telefone";
             this.Telefone.Size = new System.Drawing.Size(210, 22);
@@ -59,20 +60,20 @@
             // Numero
             // 
             this.Numero.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Numero.Location = new System.Drawing.Point(534, 222);
+            this.Numero.Location = new System.Drawing.Point(531, 251);
             this.Numero.Mask = "00000";
             this.Numero.Name = "Numero";
-            this.Numero.Size = new System.Drawing.Size(210, 22);
+            this.Numero.Size = new System.Drawing.Size(47, 22);
             this.Numero.TabIndex = 13;
             // 
-            // Cpf
+            // maskedTextBoxCPF
             // 
-            this.Cpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cpf.Location = new System.Drawing.Point(534, 164);
-            this.Cpf.Mask = "000.000.000.-00";
-            this.Cpf.Name = "Cpf";
-            this.Cpf.Size = new System.Drawing.Size(210, 22);
-            this.Cpf.TabIndex = 14;
+            this.maskedTextBoxCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedTextBoxCPF.Location = new System.Drawing.Point(534, 135);
+            this.maskedTextBoxCPF.Mask = "000.000.000.-00";
+            this.maskedTextBoxCPF.Name = "maskedTextBoxCPF";
+            this.maskedTextBoxCPF.Size = new System.Drawing.Size(210, 22);
+            this.maskedTextBoxCPF.TabIndex = 14;
             // 
             // Nome
             // 
@@ -113,7 +114,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(317, 54);
+            this.label1.Location = new System.Drawing.Point(317, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(208, 25);
             this.label1.TabIndex = 19;
@@ -133,7 +134,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(426, 276);
+            this.label3.Location = new System.Drawing.Point(425, 189);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 20);
             this.label3.TabIndex = 21;
@@ -143,7 +144,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(409, 218);
+            this.label5.Location = new System.Drawing.Point(408, 251);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(117, 20);
             this.label5.TabIndex = 23;
@@ -153,7 +154,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(449, 164);
+            this.label6.Location = new System.Drawing.Point(449, 135);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 20);
             this.label6.TabIndex = 24;
@@ -200,6 +201,7 @@
             this.buttonVoltar.TabIndex = 28;
             this.buttonVoltar.Text = "Voltar pra Menu";
             this.buttonVoltar.UseVisualStyleBackColor = false;
+            this.buttonVoltar.Click += new System.EventHandler(this.buttonVoltar_Click);
             // 
             // Cadastrar_Clientes
             // 
@@ -212,7 +214,16 @@
             this.Cadastrar_Clientes.TabIndex = 29;
             this.Cadastrar_Clientes.Text = "Cadastrar";
             this.Cadastrar_Clientes.UseVisualStyleBackColor = false;
-            this.Cadastrar_Clientes.Click += new System.EventHandler(this.Cadastrar_Clientes_Click_1);
+            this.Cadastrar_Clientes.Click += new System.EventHandler(this.Cadastrar_Clientes_Click);
+            // 
+            // labelAlert
+            // 
+            this.labelAlert.AutoSize = true;
+            this.labelAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAlert.Location = new System.Drawing.Point(554, 91);
+            this.labelAlert.Name = "labelAlert";
+            this.labelAlert.Size = new System.Drawing.Size(0, 24);
+            this.labelAlert.TabIndex = 30;
             // 
             // CadClientes
             // 
@@ -220,6 +231,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelAlert);
             this.Controls.Add(this.Cadastrar_Clientes);
             this.Controls.Add(this.buttonVoltar);
             this.Controls.Add(this.label9);
@@ -234,7 +246,7 @@
             this.Controls.Add(this.Email);
             this.Controls.Add(this.Senha);
             this.Controls.Add(this.Cep);
-            this.Controls.Add(this.Cpf);
+            this.Controls.Add(this.maskedTextBoxCPF);
             this.Controls.Add(this.Numero);
             this.Controls.Add(this.Telefone);
             this.Name = "CadClientes";
@@ -247,7 +259,7 @@
         #endregion
         private System.Windows.Forms.MaskedTextBox Telefone;
         private System.Windows.Forms.MaskedTextBox Numero;
-        private System.Windows.Forms.MaskedTextBox Cpf;
+        private System.Windows.Forms.MaskedTextBox maskedTextBoxCPF;
         private System.Windows.Forms.MaskedTextBox Nome;
         private System.Windows.Forms.MaskedTextBox Email;
         private System.Windows.Forms.MaskedTextBox Senha;
@@ -262,5 +274,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button buttonVoltar;
         private System.Windows.Forms.Button Cadastrar_Clientes;
+        private System.Windows.Forms.Label labelAlert;
     }
 }

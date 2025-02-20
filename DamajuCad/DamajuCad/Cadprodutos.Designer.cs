@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.maskedTextBoxValor = new System.Windows.Forms.MaskedTextBox();
-            this.Cadastrar_lanche = new System.Windows.Forms.Button();
+            this.CadastrarProdutos = new System.Windows.Forms.Button();
             this.escolha_foto = new System.Windows.Forms.Button();
             this.labelAlert = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
@@ -67,18 +67,18 @@
             this.maskedTextBoxValor.Size = new System.Drawing.Size(65, 20);
             this.maskedTextBoxValor.TabIndex = 2;
             // 
-            // Cadastrar_lanche
+            // CadastrarProdutos
             // 
-            this.Cadastrar_lanche.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Cadastrar_lanche.BackColor = System.Drawing.Color.White;
-            this.Cadastrar_lanche.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cadastrar_lanche.Location = new System.Drawing.Point(328, 368);
-            this.Cadastrar_lanche.Name = "Cadastrar_lanche";
-            this.Cadastrar_lanche.Size = new System.Drawing.Size(171, 39);
-            this.Cadastrar_lanche.TabIndex = 4;
-            this.Cadastrar_lanche.Text = "Cadastrar";
-            this.Cadastrar_lanche.UseVisualStyleBackColor = false;
-            this.Cadastrar_lanche.Click += new System.EventHandler(this.Cadastrar_Click);
+            this.CadastrarProdutos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.CadastrarProdutos.BackColor = System.Drawing.Color.White;
+            this.CadastrarProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CadastrarProdutos.Location = new System.Drawing.Point(328, 357);
+            this.CadastrarProdutos.Name = "CadastrarProdutos";
+            this.CadastrarProdutos.Size = new System.Drawing.Size(171, 39);
+            this.CadastrarProdutos.TabIndex = 4;
+            this.CadastrarProdutos.Text = "Cadastrar";
+            this.CadastrarProdutos.UseVisualStyleBackColor = false;
+            this.CadastrarProdutos.Click += new System.EventHandler(this.CadastrarProdutos_Click);
             // 
             // escolha_foto
             // 
@@ -217,7 +217,7 @@
             this.Controls.Add(this.labelAlert);
             this.Controls.Add(this.escolha_foto);
             this.Controls.Add(this.img_produto);
-            this.Controls.Add(this.Cadastrar_lanche);
+            this.Controls.Add(this.CadastrarProdutos);
             this.Controls.Add(this.maskedTextBoxValor);
             this.Controls.Add(this.label1);
             this.Name = "Cadprodutos";
@@ -233,7 +233,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxValor;
-        private System.Windows.Forms.Button Cadastrar_lanche;
+        private System.Windows.Forms.Button CadastrarProdutos;
         private System.Windows.Forms.PictureBox img_produto;
         private System.Windows.Forms.Button escolha_foto;
         private System.Windows.Forms.Label labelAlert;

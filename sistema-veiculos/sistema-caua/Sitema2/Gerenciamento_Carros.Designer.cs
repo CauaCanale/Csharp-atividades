@@ -86,6 +86,7 @@
             this.ButtonFechar.TabIndex = 4;
             this.ButtonFechar.Text = "Fechar";
             this.ButtonFechar.UseVisualStyleBackColor = true;
+            this.ButtonFechar.Click += new System.EventHandler(this.ButtonFechar_Click);
             // 
             // Gerenciamento_Carros
             // 

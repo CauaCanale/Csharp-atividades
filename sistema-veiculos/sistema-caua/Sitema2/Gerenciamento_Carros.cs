@@ -49,7 +49,7 @@ namespace Sitema2
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Erro ao listar os Clientes:" + ex.Message);
+                MessageBox.Show("Erro ao listar os Carros:" + ex.Message);
             }
         }
 
@@ -101,6 +101,11 @@ namespace Sitema2
                     MessageBox.Show("Por favor, selecione um cliente para excluir");
                 }
             }
+        }
+
+        private void ButtonFechar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

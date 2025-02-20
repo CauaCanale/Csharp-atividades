@@ -44,7 +44,6 @@
             this.dgvClientes.Name = "dgvClientes";
             this.dgvClientes.Size = new System.Drawing.Size(545, 311);
             this.dgvClientes.TabIndex = 0;
-            this.dgvClientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellContentClick);
             // 
             // PesquisarClientes
             // 
@@ -55,6 +54,7 @@
             this.PesquisarClientes.TabIndex = 1;
             this.PesquisarClientes.Text = "Pesquisar Clientes";
             this.PesquisarClientes.UseVisualStyleBackColor = true;
+            this.PesquisarClientes.Click += new System.EventHandler(this.PesquisarClientes_Click_1);
             // 
             // RemoverClientes
             // 
@@ -76,6 +76,7 @@
             this.Fechar.TabIndex = 3;
             this.Fechar.Text = "Fechar";
             this.Fechar.UseVisualStyleBackColor = true;
+            this.Fechar.Click += new System.EventHandler(this.Fechar_Click);
             // 
             // label1
             // 
@@ -106,7 +107,6 @@
             this.Controls.Add(this.dgvClientes);
             this.Name = "Gerenciamento_Clientes";
             this.Text = "Gerenciamento_Clientes";
-            this.Load += new System.EventHandler(this.Gerenciamento_Clientes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

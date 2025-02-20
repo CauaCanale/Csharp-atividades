@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.Gerenciar_Produtos = new System.Windows.Forms.DataGridView();
+            this.GerenciarProdutos = new System.Windows.Forms.DataGridView();
             this.Voltar = new System.Windows.Forms.Button();
             this.RemoverProdutos = new System.Windows.Forms.Button();
             this.PesquisarProdutos = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.Gerenciar_Produtos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GerenciarProdutos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -46,13 +46,13 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Gerenciamento Produtos";
             // 
-            // Gerenciar_Produtos
+            // GerenciarProdutos
             // 
-            this.Gerenciar_Produtos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Gerenciar_Produtos.Location = new System.Drawing.Point(101, 182);
-            this.Gerenciar_Produtos.Name = "Gerenciar_Produtos";
-            this.Gerenciar_Produtos.Size = new System.Drawing.Size(568, 341);
-            this.Gerenciar_Produtos.TabIndex = 8;
+            this.GerenciarProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GerenciarProdutos.Location = new System.Drawing.Point(101, 182);
+            this.GerenciarProdutos.Name = "GerenciarProdutos";
+            this.GerenciarProdutos.Size = new System.Drawing.Size(568, 341);
+            this.GerenciarProdutos.TabIndex = 8;
             // 
             // Voltar
             // 
@@ -63,6 +63,7 @@
             this.Voltar.TabIndex = 7;
             this.Voltar.Text = "Voltar";
             this.Voltar.UseVisualStyleBackColor = true;
+            this.Voltar.Click += new System.EventHandler(this.Voltar_Click);
             // 
             // RemoverProdutos
             // 
@@ -73,6 +74,7 @@
             this.RemoverProdutos.TabIndex = 6;
             this.RemoverProdutos.Text = "Remover Produtos";
             this.RemoverProdutos.UseVisualStyleBackColor = true;
+            this.RemoverProdutos.Click += new System.EventHandler(this.RemoverProdutos_Click_1);
             // 
             // PesquisarProdutos
             // 
@@ -83,6 +85,7 @@
             this.PesquisarProdutos.TabIndex = 5;
             this.PesquisarProdutos.Text = "Pesquisar Produtos";
             this.PesquisarProdutos.UseVisualStyleBackColor = true;
+            this.PesquisarProdutos.Click += new System.EventHandler(this.PesquisarProdutos_Click_1);
             // 
             // Gerenciamento_Produtos
             // 
@@ -91,13 +94,13 @@
             this.BackColor = System.Drawing.Color.DarkOrange;
             this.ClientSize = new System.Drawing.Size(1023, 612);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.Gerenciar_Produtos);
+            this.Controls.Add(this.GerenciarProdutos);
             this.Controls.Add(this.Voltar);
             this.Controls.Add(this.RemoverProdutos);
             this.Controls.Add(this.PesquisarProdutos);
             this.Name = "Gerenciamento_Produtos";
             this.Text = "Gerenciamento_Lanches";
-            ((System.ComponentModel.ISupportInitialize)(this.Gerenciar_Produtos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GerenciarProdutos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -106,7 +109,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView Gerenciar_Produtos;
+        private System.Windows.Forms.DataGridView GerenciarProdutos;
         private System.Windows.Forms.Button Voltar;
         private System.Windows.Forms.Button RemoverProdutos;
         private System.Windows.Forms.Button PesquisarProdutos;

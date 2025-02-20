@@ -93,7 +93,7 @@
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.Location = new System.Drawing.Point(492, 183);
+            this.textBoxEmail.Location = new System.Drawing.Point(493, 183);
             this.textBoxEmail.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(281, 26);
@@ -183,7 +183,7 @@
             // maskedTextBoxCPF
             // 
             this.maskedTextBoxCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxCPF.Location = new System.Drawing.Point(492, 146);
+            this.maskedTextBoxCPF.Location = new System.Drawing.Point(493, 146);
             this.maskedTextBoxCPF.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBoxCPF.Mask = "000,000,000-00";
             this.maskedTextBoxCPF.Name = "maskedTextBoxCPF";
@@ -203,7 +203,7 @@
             // maskedTextBoxCEP
             // 
             this.maskedTextBoxCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.maskedTextBoxCEP.Location = new System.Drawing.Point(492, 221);
+            this.maskedTextBoxCEP.Location = new System.Drawing.Point(493, 221);
             this.maskedTextBoxCEP.Margin = new System.Windows.Forms.Padding(2);
             this.maskedTextBoxCEP.Mask = "00000-999";
             this.maskedTextBoxCEP.Name = "maskedTextBoxCEP";
@@ -224,10 +224,10 @@
             // labelAlert
             // 
             this.labelAlert.AutoSize = true;
-            this.labelAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAlert.Location = new System.Drawing.Point(457, 165);
+            this.labelAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAlert.Location = new System.Drawing.Point(796, 148);
             this.labelAlert.Name = "labelAlert";
-            this.labelAlert.Size = new System.Drawing.Size(0, 29);
+            this.labelAlert.Size = new System.Drawing.Size(0, 24);
             this.labelAlert.TabIndex = 21;
             // 
             // CadClientes

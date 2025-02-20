@@ -61,10 +61,10 @@
             // labelAlert
             // 
             this.labelAlert.AutoSize = true;
-            this.labelAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelAlert.Location = new System.Drawing.Point(171, 214);
+            this.labelAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAlert.Location = new System.Drawing.Point(168, 218);
             this.labelAlert.Name = "labelAlert";
-            this.labelAlert.Size = new System.Drawing.Size(0, 29);
+            this.labelAlert.Size = new System.Drawing.Size(0, 24);
             this.labelAlert.TabIndex = 38;
             // 
             // maskedTextBoxTelefone
@@ -164,7 +164,6 @@
             this.textBoxProprietario.Name = "textBoxProprietario";
             this.textBoxProprietario.Size = new System.Drawing.Size(281, 26);
             this.textBoxProprietario.TabIndex = 1;
-      
             // 
             // label2
             // 

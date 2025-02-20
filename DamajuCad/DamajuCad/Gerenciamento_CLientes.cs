@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace DamajuCad
 {
-    public partial class Gerenciamento_CLientes : Form
+    public partial class Gerenciamento_Clientes : Form
     {
-        public Gerenciamento_CLientes()
+        public Gerenciamento_Clientes()
         {
             InitializeComponent();
         }
@@ -55,7 +55,7 @@ namespace DamajuCad
             if (Gerenciar_Clientes.SelectedRows.Count > 0)
             {
                 //Pega ID do cliente da linha selecionada
-                int clienteID = Convert.ToInt32(Gerenciar_Clientes.SelectedRows[0].Cells["ID_Cliente"].Value);
+                int clienteID = Convert.ToInt32(Gerenciar_Clientes.SelectedRows[0].Cells["ID_Clientes"].Value);
 
                 DialogResult result = MessageBox.Show("Tem certeza que deseja excluir este cliente?", "Confirmar Exclusão", MessageBoxButtons.YesNo);
 
@@ -69,11 +69,11 @@ namespace DamajuCad
                         {
                             consulta.Open();
 
-                            string listagem = "DELETE FROM tb_clientes WHERE ID_Cliente = @ID_Cliente";
+                            string listagem = "DELETE FROM tb_cliente WHERE ID_Clientes = @ID_Clientes";
 
                             using (MySqlCommand cmd = new MySqlCommand(listagem, consulta))
                             {
-                                cmd.Parameters.AddWithValue("ID_Cliente", clienteID);
+                                cmd.Parameters.AddWithValue("ID_Clientes", clienteID);
 
                                 int rowsAffected = cmd.ExecuteNonQuery();
 
@@ -99,5 +99,41 @@ namespace DamajuCad
                 }
             }
         }
+
+        private void PesquisarClientes_Click(object sender, EventArgs e)
+        {
+            //Defina sua string de conexão com o banco
+            string connectionString = "Server=localhost; Port=3306; Database=bd_damaju; Uid=root; Pwd=;";
+
+            try
+            {
+                using (MySqlConnection consulta = new MySqlConnection(connectionString))
+                {
+                    consulta.Open();
+
+                    string listagem = "SELECT ID_Clientes, Nome, Cpf, Telefone, Email FROM tb_cliente";
+
+                    using (MySqlCommand cmd = new MySqlCommand(listagem, consulta))
+                    {
+                        MySqlDataReader reader = cmd.ExecuteReader();
+
+                        DataTable dadosClientes = new DataTable();
+                        dadosClientes.Load(reader);
+
+                        Gerenciar_Clientes.DataSource = dadosClientes;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao listar os Clientes:" + ex.Message);
+            }
+        }
+
+        private void Voltar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
+
